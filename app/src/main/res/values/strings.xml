@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Servi Home 2.0</string>
+    <string name="submit">Enviar</string>
+    <string name="select">Mostrar Requerimientos</string>
+    <string name="alter">Modificar</string>
+    <string name="drop">Eliminar</string>
+</resources>

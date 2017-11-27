@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.pablonavarro.com.prototypeappproyect.ShowDemand">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/lb_TitleReq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Ingresar Requerimiento"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:ems="10"
+            android:layout_marginBottom="@dimen/margin_30"/>
+
+        <TextView
+            android:id="@+id/lb_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre Completo"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:ems="10"
+            android:layout_marginBottom="@dimen/margin_10"/>
+
+        <EditText
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_marginBottom="@dimen/margin_20" />
+
+        <TextView
+            android:id="@+id/lb_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teléfono"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:ems="10"
+            android:layout_marginBottom="@dimen/margin_10"/>
+
+        <EditText
+            android:id="@+id/txt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:layout_marginBottom="@dimen/margin_20" />
+
+        <TextView
+            android:id="@+id/lb_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo de Pedido"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:ems="10"
+            android:layout_marginBottom="@dimen/margin_10"/>
+
+        <Spinner
+            android:id="@+id/sp_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginBottom="@dimen/margin_20">
+        </Spinner>
+
+        <TextView
+            android:id="@+id/lb_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripcion"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium"
+            android:ems="10"
+            android:layout_marginBottom="@dimen/margin_10"/>
+
+        <EditText
+            android:id="@+id/txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_marginBottom="@dimen/margin_30" />
+
+        <Button
+            android:id="@+id/btn_alter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alter"
+            android:ems="10"
+            android:layout_marginBottom="@dimen/margin_20"/>
+
+        <Button
+            android:id="@+id/btn_drop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drop"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
