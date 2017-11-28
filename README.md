@@ -17,8 +17,6 @@ de **INACAP COYHAIQUE - 2017**.
 
 > **Nota:**
 Para el desarrollo del código de la aplicación se basado en el trabajo de las siguientes personas.
-WiMSONEVEL https://github.com/wimsonevel/Android-SQLite
-GONZALO EDUARDO PEREZ CORREA https://www.youtube.com/watch?v=hF_m7B6RyhU
 > - WiMSONEVEL: poyecto en Github sobre [CRUD y SQLITE con AndroidStudio][1]
 > - GONZALO EDUARDO PEREZ CORREA : video tutorial en [YOUTUBE][2]
 
